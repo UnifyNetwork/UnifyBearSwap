@@ -4639,7 +4639,7 @@ var socials = [
     {
         label: "Github",
         icon: "Github",
-        href: "https://Github.com/ProtocolBEAR",
+        href: "https://github.com/CaptainSend",
         
     }
     
