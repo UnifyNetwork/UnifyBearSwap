@@ -1,8 +1,8 @@
 import { SalesSectionProps } from '.'
 
 export const swapSectionData: SalesSectionProps = {
-  headingText: 'Stablecoin Safehaven',
-  bodyText: 'BearSwap is pegged to Binance USD Stablecoin which helps protect liquidity providers from impermanent loss',
+  headingText: 'The USDB Stablecoin',
+  bodyText: 'With our own stablecoin that is always pegged to Binance USD Stablecoin, helps the protocol to protect liquidity providers impermanent loss',
   reverse: false,
   primaryButton: {
     to: '/swap',
