@@ -98,10 +98,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('The Metaverse Reserve Currency')}
+            {t('Safe In ANY Market')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('BearSwap is building a community-owned DAO with infrastructure to support the Metaverse on Binance Smart Chain')}
+            {t('Protocol BEAR is made for growing wealth in any market condition. Transparent. Decentralized. Secure.')}
           </Heading>
          
           
