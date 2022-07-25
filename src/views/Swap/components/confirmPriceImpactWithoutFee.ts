@@ -24,16 +24,16 @@ export default function confirmPriceImpactWithoutFee(priceImpactWithoutFee: Perc
       ) === confirmWord
     )
   }
-  if (!priceImpactWithoutFee.lessThan(ALLOWED_PRICE_IMPACT_HIGH)) {
-    // eslint-disable-next-line no-alert
-    return window.confirm(
-      t(
-        'This swap has a price impact of at least %amount%%. Please confirm that you would like to continue with this swap.',
-        {
-          amount: ALLOWED_PRICE_IMPACT_HIGH.toFixed(0),
-        },
-      ),
-    )
-  }
+  // if (!priceImpactWithoutFee.lessThan(ALLOWED_PRICE_IMPACT_HIGH)) {
+  //   // eslint-disable-next-line no-alert
+  //   return window.confirm(
+  //     t(
+  //       'This swap has a price impact of at least %amount%%. Please confirm that you would like to continue with this swap.',
+  //       {
+  //         amount: ALLOWED_PRICE_IMPACT_HIGH.toFixed(0),
+  //       },
+  //     ),
+  //   )
+  // }
   return true
 }
