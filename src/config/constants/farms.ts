@@ -12,7 +12,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'BERRIES',
     lpAddresses: {
       97: '0x9C21123D94b93361a29B2C2EFB3d5CD8B17e0A9e',
-      56: '0xAA1843edfbe57Ce533117fE39cF2BC742B64F65D',
+      56: '0xA558c57cFeE890Ea0CBCa3eABE99CD1FCd78D902',
     },
     token: serializedTokens.syrup,
     quoteToken: serializedTokens.wbnb,
@@ -23,7 +23,7 @@ const farms: SerializedFarmConfig[] = [
     lpSymbol: 'BERRIES-BNB LP',
     lpAddresses: {
       97: '0x3ed8936cAFDF85cfDBa29Fbe5940A5b0524824F4',
-      56: '0x67DDB9538c9db67fd94D335AF896e8d0921F9B4c',
+      56: '0xAF71ed556A4443d56Df06d2CbA7264c2781d8Ae7',
     },
     token: serializedTokens.cake,
     quoteToken: serializedTokens.wbnb,
