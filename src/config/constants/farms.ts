@@ -41,6 +41,19 @@ const farms: SerializedFarmConfig[] = [
     token: serializedTokens.busd,
     quoteToken: serializedTokens.wbnb,
   }
+  ,
+  {
+    pid: 3,
+    lpSymbol: 'BEAR-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x42CA7D71c20a7f80184F3bB201d9c3281C12F027',
+    },
+    token: serializedTokens.bear,
+    quoteToken: serializedTokens.wbnb,
+  }
+  
+  
   
  
 ]

@@ -31,6 +31,14 @@ export const mainnetTokens = {
     'BearSwap',
     'https://BearSwap.net/',
   ),
+  bear: new Token(
+    MAINNET,
+    '0x78073bB050430247191E0E7f2f6199E86D58d6ec',
+    18,
+    'BEAR',
+    'Bearcoin',
+    'https://BearSwap.net/',
+  ),
   shbar: new Token(
     MAINNET,
     '0xf3bebB4f2D348e44cC4547Cba2F96C214fE5A25A',
