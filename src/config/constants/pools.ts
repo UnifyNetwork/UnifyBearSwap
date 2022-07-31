@@ -26,7 +26,7 @@ const pools: SerializedPoolConfig[] = [
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
       56: '0x1ab0d7291AF9Bf20A3f8c21c3A3d11682e5972C5',
     },
-    poolCategory: PoolCategory.CORE,
+    poolCategory: PoolCategory.COMMUNITY,
     harvest: true,
     tokenPerBlock: '0.21',
     sortOrder: 1,
