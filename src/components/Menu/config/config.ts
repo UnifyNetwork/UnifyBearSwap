@@ -37,13 +37,23 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   {
+    label: 'Bridge',
+    href: '/Bridge',
+    icon: 'Bridge',
+  },
+  {
+    label: 'Launchpad',
+    href: '/Launchpad',
+    icon: 'Launchpad',
+  },
+  {
     label: 'More',
     href: '#',
     icon: 'More',
     hideSubNav: false,
     items: [
       {
-        label: t('Bear Coin'),
+        label: t('Protocol BEAR'),
         href: 'https://ProtocolBEAR.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
