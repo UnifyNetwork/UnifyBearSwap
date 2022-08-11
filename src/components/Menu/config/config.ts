@@ -6,14 +6,19 @@ export type ConfigMenuItemsType = MenuItemsType & { hideSubNav?: boolean }
 
 const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
-    label: t('Trade'),
+    label: t('Exchange'),
     icon: 'Swap',
     href: '/swap',
-    showItemsOnMobile: false,
+    showItemsOnMobile: true,
     items: [
       {
-        label: t('Exchange'),
+        label: t('Swap'),
         href: '/swap',
+      },
+      {
+        label: t('Bridge'),
+        href: 'https://Bridge.BearSwap.net',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {
         label: t('Liquidity'),
@@ -37,18 +42,48 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   {
-    label: 'More',
-    href: '#',
-    icon: 'More',
-    hideSubNav: false,
+    label: t('Win'),
+    href: '/prediction',
+    icon: TrophyIcon,
+    fillIcon: TrophyFillIcon,
+    supportChainIds: [ChainId.BSC],
     items: [
       {
-        label: t('Protocol BEAR'),
-        href: 'https://ProtocolBEAR.com',
+        label: t('Prediction (BETA)'),
+        href: 'https://pancakeswap.finance/prediction',
         type: DropdownMenuItemType.EXTERNAL_LINK,
-      }
+      },
+      {
+        label: t('Lottery'),
+        href: '/lottery',
+      },
     ],
   },
+  {
+      label: '',
+      href: '/info',
+      icon: MoreIcon,
+      hideSubNav: true,
+      supportChainIds: [ChainId.BSC],
+      items: [
+        {
+          label: t('Website'),
+          href: 'https://protocolBEAR.com',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+        {
+          label: t('Docs - coming soon'),
+          href: '/',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+          
+        },
+        {
+          label: t('Community'),
+          href: 'https://t.me/ProtocolBEAR',
+          type: DropdownMenuItemType.EXTERNAL_LINK,
+        },
+      ],
+    },
 ]
 
 export default config
