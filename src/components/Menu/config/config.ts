@@ -43,7 +43,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   },
   {
     label: t('Win'),
-    href: '/prediction',
+    href: '/lottery',
     supportChainIds: [ChainId.BSC],
     items: [
       {
