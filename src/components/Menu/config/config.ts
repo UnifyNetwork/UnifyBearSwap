@@ -1,3 +1,16 @@
+import {
+  MenuItemsType,
+  DropdownMenuItemType,
+  SwapIcon,
+  SwapFillIcon,
+  EarnFillIcon,
+  EarnIcon,
+  TrophyIcon,
+  TrophyFillIcon,
+  NftIcon,
+  NftFillIcon,
+  MoreIcon,
+} from '@pancakeswap/uikit'
 import { MenuItemsType, DropdownMenuItemType } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
