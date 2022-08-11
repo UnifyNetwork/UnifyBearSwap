@@ -9,20 +9,19 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     label: t('Exchange'),
     icon: 'Swap',
     href: '/swap',
-    showItemsOnMobile: true,
+    showItemsOnMobile: false,
     items: [
       {
         label: t('Swap'),
         href: '/swap',
       },
       {
-        label: t('Bridge'),
-        href: 'https://Bridge.BearSwap.net',
-        type: DropdownMenuItemType.EXTERNAL_LINK,
-      },
-      {
         label: t('Liquidity'),
         href: '/liquidity',
+      },
+      {
+        label: t('Bridge'),
+        href: 'https://Bridge.BearSwap.net',
       },
     ],
   },
@@ -42,32 +41,17 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   {
-    label: t('Win'),
-    href: '/lottery',
+    label: 'More',
+    href: 'https://ProtocolBEAR.com',
+    icon: 'More',
+    hideSubNav: false,
     items: [
       {
-        label: t('Prediction (BETA)'),
-        href: 'https://pancakeswap.finance/prediction',
+        label: t('Website'),
+        href: 'https://ProtocolBEAR.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       },
       {
-        label: t('Lottery'),
-        href: '/lottery',
-      },
-    ],
-  },
-  {
-      label: '',
-      href: 'https://ProtocolBEAR.com',
-      icon: More,
-      hideSubNav: true,
-      items: [
-        {
-          label: t('Website'),
-          href: 'https://protocolBEAR.com',
-          type: DropdownMenuItemType.EXTERNAL_LINK,
-        },
-        {
           label: t('Docs - coming soon'),
           href: '/',
           type: DropdownMenuItemType.EXTERNAL_LINK,
@@ -78,8 +62,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
           href: 'https://t.me/ProtocolBEAR',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
-      ],
-    },
+    ],
+  },
 ]
-
-export default config
