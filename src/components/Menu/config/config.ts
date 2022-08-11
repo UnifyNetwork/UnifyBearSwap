@@ -44,7 +44,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Win'),
     href: '/lottery',
-    supportChainIds: [ChainId.BSC],
     items: [
       {
         label: t('Prediction (BETA)'),
@@ -59,10 +58,9 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   },
   {
       label: '',
-      href: '/info',
+      href: 'https://ProtocolBEAR.com',
       icon: More,
       hideSubNav: true,
-      supportChainIds: [ChainId.BSC],
       items: [
         {
           label: t('Website'),
