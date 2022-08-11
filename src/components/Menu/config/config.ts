@@ -44,8 +44,6 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Win'),
     href: '/prediction',
-    icon: Trophy,
-    fillIcon: TrophyFillIcon,
     supportChainIds: [ChainId.BSC],
     items: [
       {
