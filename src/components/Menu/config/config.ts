@@ -1,17 +1,3 @@
-import {
-  MenuItemsType,
-  DropdownMenuItemType,
-  SwapIcon,
-  SwapFillIcon,
-  EarnFillIcon,
-  EarnIcon,
-  TrophyIcon,
-  TrophyFillIcon,
-  NftIcon,
-  NftFillIcon,
-  MoreIcon,
-} from '@pancakeswap/uikit'
-
 import { MenuItemsType, DropdownMenuItemType } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
@@ -58,7 +44,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
     label: t('Win'),
     href: '/prediction',
-    icon: TrophyIcon,
+    icon: Trophy,
     fillIcon: TrophyFillIcon,
     supportChainIds: [ChainId.BSC],
     items: [
@@ -76,7 +62,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   {
       label: '',
       href: '/info',
-      icon: MoreIcon,
+      icon: More,
       hideSubNav: true,
       supportChainIds: [ChainId.BSC],
       items: [
