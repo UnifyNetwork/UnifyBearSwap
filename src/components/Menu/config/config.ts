@@ -12,10 +12,6 @@ import {
   MoreIcon,
 } from '@pancakeswap/uikit'
 
-import { ContextApi } from '@pancakeswap/localization'
-import { nftsBaseUrl } from 'views/Nft/market/constants'
-import { perpLangMap } from 'utils/getPerpetualLanguageCode'
-import { perpTheme } from 'utils/getPerpetualTheme'
 import { DropdownMenuItems } from '@pancakeswap/uikit/src/components/DropdownMenu/types'
 import { ChainId } from '@pancakeswap/sdk'
 
