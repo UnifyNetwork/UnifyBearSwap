@@ -21,7 +21,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
       {
         label: t('Bridge'),
-        href: 'https://Bridge.ProtocolBEAR.com',
+        href: 'https://bridge.bearswap.net/',
       },
     ],
   },
