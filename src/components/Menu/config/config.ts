@@ -21,7 +21,8 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
       },
       {
         label: t('Bridge'),
-        href: 'https://bridge.bearswap.net/',
+        href: 'https://Bridge.BearSwap.net',
+        type: DropdownMenuItemType.EXTERNAL_LINK,
       },
     ],
   },
@@ -47,7 +48,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     hideSubNav: false,
     items: [
       {
-        label: t('Bear Coin'),
+        label: t('Protocol Website'),
         href: 'https://ProtocolBEAR.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
