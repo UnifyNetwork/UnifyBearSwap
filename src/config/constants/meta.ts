@@ -2,9 +2,9 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'BearSwap',
+  title: 'UnifySwap',
   description:
-    'The most popular AMM on BSC by user count! Earn BERRIES through yield farming or win it in the Lottery, then stake it in BERRIES Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by BearSwap), NFTs, and more, on a platform you can trust.',
+    '',
   image: 'https://BearSwap.net/images/hero.png',
 }
 
@@ -33,106 +33,106 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('BearSwap')}`,
+        title: `${t('Home')} | ${t('UnifySwap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('BearSwap')}`,
+        title: `${t('Exchange')} | ${t('UnifySwap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('UnifySwap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('UnifySwap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('BearSwap')}`,
+        title: `${t('Liquidity')} | ${t('UnifySwap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('BearSwap')}`,
+        title: `${t('Import Pool')} | ${t('UnifySwap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('BearSwap')}`,
+        title: `${t('Trading Battle')} | ${t('UnifySwap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('BearSwap')}`,
+        title: `${t('Prediction')} | ${t('UnifySwap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('BearSwap')}`,
+        title: `${t('Leaderboard')} | ${t('UnifySwap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('BearSwap')}`,
+        title: `${t('Farms')} | ${t('UnifySwap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('BearSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('UnifySwap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('BearSwap')}`,
+        title: `${t('Pools')} | ${t('UnifySwap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('BearSwap')}`,
+        title: `${t('Lottery')} | ${t('UnifySwap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('BearSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('UnifySwap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('BearSwap')}`,
+        title: `${t('Leaderboard')} | ${t('UnifySwap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('BearSwap')}`,
+        title: `${t('Voting')} | ${t('UnifySwap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('BearSwap')}`,
+        title: `${t('Proposals')} | ${t('UnifySwap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('BearSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('UnifySwap')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('BearSwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Overview')} | ${t('UnifySwap Info & Analytics')}`,
+        description: 'View statistics for UnifySwap exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('BearSwap Info & Analytics')}`,
-        description: 'View statistics for BearSwap exchanges.',
+        title: `${t('Pools')} | ${t('UnifySwap Info & Analytics')}`,
+        description: 'View statistics for UnifySwap exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('BearSwap Info & Analytics')}`,
+        title: `${t('Tokens')} | ${t('UnifySwap Info & Analytics')}`,
         description: 'View statistics for BearSwap exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('BearSwap')}`,
+        title: `${t('Overview')} | ${t('UnifySwap')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('BearSwap')}`,
+        title: `${t('Collections')} | ${t('UnifySwap')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Your Profile')} | ${t('BearSwap')}`,
+        title: `${t('Your Profile')} | ${t('UnifySwap')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('BearSwap')}`,
+        title: `${t('Pancake Squad')} | ${t('UnifySwap')}`,
       }
     default:
       return null
