@@ -2196,7 +2196,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled.a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c", target: "_blank" },
+    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://UnifySwap.net/swap?outputCurrency=0x79bb9e6c477ac5518e22975ecf9312c80cf931d4", target: "_blank" },
         React__default.createElement(Icon$Z, { width: "24px", mr: "8px" }),
         React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(9)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -2774,9 +2774,9 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#9b51b4", background: "#1c1b21", backgroundDisabled: "#3c3742", backgroundAlt: "#1c1b21", backgroundAlt2: "#1c1b21", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#372F47", inputSecondary: "#262130", primaryDark: "#ef224b", tertiary: "#353547", text: "#F4EEFF", textDisabled: "#666171", textSubtle: "#B8ADD2", disabled: "#524B63", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
-        inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#9b51b4", background: "#1f002d", backgroundDisabled: "#3c3742", backgroundAlt: "#1f002d", backgroundAlt2: "#1f002d", cardBorder: "#383241", contrast: "#FFFFFF", dropdown: "#1E1D20", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#372F47", inputSecondary: "#262130", primaryDark: "#ef224b", tertiary: "#353547", text: "#F4EEFF", textDisabled: "#666171", textSubtle: "#B8ADD2", disabled: "#524B63", gradients: {
+        bubblegum: "linear-gradient(50deg, #00bdfd 0%, #cc1886 100%)",
+        inverseBubblegum: "linear-gradient(50deg, #00bdfd 0%, #cc1886 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
@@ -4727,7 +4727,7 @@ var MenuItem = function (_a) {
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
                         React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default.createElement(Button, { as: "a", href: "https://BearSwap.net/swap?outputCurrency=0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default.createElement(Button, { as: "a", href: "https://UnifySwap.net/swap?outputCurrency=0x79bb9e6c477ac5518e22975ecf9312c80cf931d4", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$27, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
