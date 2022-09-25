@@ -27,29 +27,14 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
     ],
   },
   {
-    label: t('Earn'),
-    href: '/farms',
-    icon: 'Earn',
-    items: [
-      {
-        label: t('Farms'),
-        href: '/farms',
-      },
-      {
-        label: t('Pools'),
-        href: '/pools',
-      },
-    ],
-  },
-  {
     label: 'More',
     href: '#',
     icon: 'More',
     hideSubNav: false,
     items: [
       {
-        label: t('Protocol Website'),
-        href: 'https://ProtocolBEAR.com',
+        label: t('Website'),
+        href: 'https://Unify-network.com',
         type: DropdownMenuItemType.EXTERNAL_LINK,
       }
     ],
