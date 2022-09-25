@@ -25,19 +25,11 @@ export const mainnetTokens = {
   bnb: new Token(MAINNET, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'BNB', 'BNB', 'https://www.binance.com/'),
   cake: new Token(
     MAINNET,
-    '0xf0F80C9fA32DcE1bA3Baf60E3697E3542044dE8c',
+    '0x79bb9e6c477ac5518e22975ecf9312c80cf931d4',
     18,
-    'BERRIES',
-    'BearSwap',
-    'https://BearSwap.net/',
-  ),
-  bear: new Token(
-    MAINNET,
-    '0x78073bB050430247191E0E7f2f6199E86D58d6ec',
-    18,
-    'BEAR',
-    'Bearcoin',
-    'https://BearSwap.net/',
+    'UNIF',
+    'Unify Network',
+    'https://UnifySwap.net/',
   ),
   shbar: new Token(
     MAINNET,
