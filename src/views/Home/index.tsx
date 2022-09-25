@@ -72,35 +72,6 @@ const Home: React.FC = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        
-        <SalesSection {...swapSectionData} />
-      </PageSection>
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background="#141414"
-        index={2}
-        hasCurvedDivider={false}
-      >
-        
-        <SalesSection {...earnSectionData} />
-        
-      </PageSection>
-     
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background="#141414"
-        index={2}
-        hasCurvedDivider={false}
-      >
-        <SalesSection {...cakeSectionData} />
-     
-      </PageSection>
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background="#141414"
-        index={2}
-        hasCurvedDivider={false}
-      >
         <Footer />
       </PageSection>
     </>
