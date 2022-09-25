@@ -1,8 +1,8 @@
 {
-  "short_name": "BearSwap",
-  "name": "BearSwap",
-  "description": "Farm BERRIES with Pancake LP Tokens",
-  "homepage_url": "https://BearSwap.net",
+  "short_name": "UnifySwap",
+  "name": "UnifySwap",
+  "description": "Unify Network",
+  "homepage_url": "https://UnifySwap.net",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",
