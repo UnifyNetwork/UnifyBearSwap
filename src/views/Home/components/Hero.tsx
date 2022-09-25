@@ -98,10 +98,10 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading scale="xxl" color="secondary" mb="24px">
-            {t('Safe In ANY Market')}
+            {t('Unify Network')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Protocol BEAR is made for growing wealth in any market condition. Transparent. Decentralized. Secure.')}
+            {t('The first DeFi application that will allow users to send payment requests on the Binance Network.')}
           </Heading>
          
           
