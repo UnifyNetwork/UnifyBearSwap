@@ -124,6 +124,21 @@ const App: React.FC = () => {
             <Route path="/syrup">
               <Redirect to="/pools" />
             </Route>
+            <Route path="/farms">
+              <Redirect to="/swap" />
+            </Route>
+            <Route path="/pools">
+              <Redirect to="/swap" />
+            </Route>
+            <Route path="/stake">
+              <Redirect to="/swap" />
+            </Route>
+            <Route path="/staking">
+              <Redirect to="/swap" />
+            </Route>
+            <Route path="/farm">
+              <Redirect to="/swap" />
+            </Route>
             
 
             {/* 404 */}
