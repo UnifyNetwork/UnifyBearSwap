@@ -119,25 +119,10 @@ const App: React.FC = () => {
               <Redirect to="/liquidity" />
             </Route>
             <Route path="/staking">
-              <Redirect to="/swap" />
-            </Route>
-            <Route path="/farms">
-              <Redirect to="/swap" />
-            </Route>
-            <Route path="/pools">
-              <Redirect to="/swap" />
+              <Redirect to="/pools" />
             </Route>
             <Route path="/syrup">
-              <Redirect to="/swap" />
-            </Route>
-            <Route path="/nft">
-              <Redirect to="/swap" />
-            </Route>
-            <Route path="/stake">
-              <Redirect to="/swap" />
-            </Route>
-            <Route path="/farm">
-              <Redirect to="/swap" />
+              <Redirect to="/pools" />
             </Route>
             
 
