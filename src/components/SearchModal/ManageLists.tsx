@@ -103,7 +103,7 @@ const ListRow = memo(function ListRow({ listUrl }: { listUrl: string }) {
       )}
       <Column style={{ flex: '1' }}>
         <Row>
-          <Text bold>BearSwap Extended</Text>
+          <Text bold>UnifySwap Extended</Text>
         </Row>
         <RowFixed mt="4px">
           <Text fontSize="12px" mr="6px" textTransform="lowercase">
